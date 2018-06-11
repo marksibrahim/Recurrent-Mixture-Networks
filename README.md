@@ -1,5 +1,13 @@
 # Recurrent-Mixture-Networks
 
+
+# Instacart Data Processing
+1. Download [instacart dataset](https://www.instacart.com/datasets/grocery-shopping-2017)
+2. Edit PATH in `merge_instacart_data.py` to location of data
+3. Install pandas and run script `$ python merge_instacart_data.py`
+
+This should generate a ~3GB csv called `transactions` (it took ~10 minutes to run on a Macbook Pro). 
+
 ## Open Source Transaction Data
 
 * https://arxiv.org/abs/1511.05957 (3 months ~1 million customers transactions, published in Nature/Science)
