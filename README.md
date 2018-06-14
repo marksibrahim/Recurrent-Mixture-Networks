@@ -11,8 +11,7 @@ This should generate a ~3GB csv called `transactions` (it took ~10 minutes to ru
 # Relevant Literature
 
 [Sequence of purchases in credit card data reveal life styles in urban
-populations](Sequence of purchases in credit card data reveal life styles in urban
-populations) (thanks to Kevin)
+populations](https://arxiv.org/pdf/1703.00409.pdf) (thanks to Kevin)
 
 # Open Source Transaction Data
 
