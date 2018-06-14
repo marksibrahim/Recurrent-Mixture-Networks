@@ -8,7 +8,13 @@
 
 This should generate a ~3GB csv called `transactions` (it took ~10 minutes to run on a Macbook Pro). 
 
-## Open Source Transaction Data
+# Relevant Literature
+
+[Sequence of purchases in credit card data reveal life styles in urban
+populations](Sequence of purchases in credit card data reveal life styles in urban
+populations) (thanks to Kevin)
+
+# Open Source Transaction Data
 
 * https://arxiv.org/abs/1511.05957 (3 months ~1 million customers transactions, published in Nature/Science)
   * also appears in https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4180893/ (although I'm not certain)
