@@ -1,5 +1,6 @@
 # Recurrent-Mixture-Networks
 
+An approach for blending recurrent neural networks with mixture/topic modeling techniques.
 
 # Instacart Data Processing
 1. Download [instacart dataset](https://www.instacart.com/datasets/grocery-shopping-2017)
