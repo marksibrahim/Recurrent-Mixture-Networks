@@ -8,8 +8,7 @@ Creating new dataset where products that are appeared less than 20 times get rep
 import pandas as pd
 import numpy as np
 
-PATH = "~\\"
-transactions_df = pd.read_csv(PATH + "transactions.csv", encoding = "ISO-8859-1")
+transactions_df = pd.read_csv("transactions.csv", encoding = "ISO-8859-1")
 
 countProductID = transactions_df.groupby('product_name').product_name.count()
 countProdSorted = countProductID.sort_values(ascending=True)
