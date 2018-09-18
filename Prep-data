@@ -38,8 +38,7 @@ transactions_df.columns = ['Unnamed: 0',
  'department',
  'product_id_tsfm']
 
-
-transactions_df[['order_id','product_id','user_id','product_name','aisle','product_id_tsfm']].to_csv("DataRareProdMerg.csv")
+transactions_df[['order_id','product_id','user_id','product_name','aisle','product_id_tsfm','days_since_prior_order','order_number']].to_csv("DataRareProdMergOrderTime.csv")
 
 newProdNameNew = pd.DataFrame(newProdName[1])
 newProdNameNew.to_csv('mergedProdKey.csv')
