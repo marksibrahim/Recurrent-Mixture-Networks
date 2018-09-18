@@ -15,7 +15,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.decomposition import NMF, LatentDirichletAllocation
 
 
-PATH = "~\\rigel\\dsi\\users\\gf2293\\LDARNN\\"
 userIDprodName_df = pd.read_csv("DataRareProdMergOrderTime.csv", encoding = "ISO-8859-1") # in this dataset, rare products are replaced with their aisle names
 newProdName=pd.factorize(userIDprodName_df['product_name'])
 prodID = newProdName[0]
